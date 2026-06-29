@@ -1,0 +1,137 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#111;
+color:#fff;
+}
+
+.hero{
+height:90vh;
+background:url("IMG_1677.jpg") center center/cover no-repeat;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+position:relative;
+}
+
+.overlay{
+background:rgba(0,0,0,.65);
+padding:40px;
+border-radius:15px;
+}
+
+h1{
+font-size:48px;
+color:#d4af37;
+margin-bottom:10px;
+}
+
+p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.gold-btn,
+.dark-btn{
+padding:15px 30px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.gold-btn{
+background:#d4af37;
+color:#111;
+}
+
+.gold-btn:hover{
+background:#f5d76e;
+}
+
+.dark-btn{
+background:#222;
+color:white;
+border:1px solid #d4af37;
+}
+
+.dark-btn:hover{
+background:#333;
+}
+
+.services{
+padding:70px 20px;
+text-align:center;
+}
+
+.services h2{
+font-size:38px;
+color:#d4af37;
+margin-bottom:30px;
+}
+
+.service-box{
+background:#1c1c1c;
+padding:25px;
+margin:15px auto;
+max-width:350px;
+border-radius:10px;
+border:1px solid #333;
+}
+
+.gallery{
+padding:60px 20px;
+text-align:center;
+}
+
+.gallery h2{
+color:#d4af37;
+margin-bottom:25px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.gallery-grid img{
+width:100%;
+border-radius:12px;
+transition:.3s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.03);
+}
+
+.contact{
+padding:70px 20px;
+text-align:center;
+}
+
+.contact a{
+color:#d4af37;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#000;
+margin-top:50px;
+}
