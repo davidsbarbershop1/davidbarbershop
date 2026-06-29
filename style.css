@@ -164,3 +164,19 @@ margin-top:.reviews{
     color:#d4af37;
     margin-top:15px;
 }
+.map-btn{
+    display:inline-block;
+    margin:20px 0;
+    padding:14px 30px;
+    background:#d4af37;
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.map-btn:hover{
+    background:#f0c94d;
+    transform:scale(1.05);
+}
