@@ -147,6 +147,18 @@ TikTok @barberdavidvzlaa
 <p>© 2026 David's Barbershop. All Rights Reserved.</p>
 
 </footer>
+    <script>
+const images = document.querySelectorAll(".gallery img");
+let current = 0;
+
+images[current].classList.add("active");
+
+setInterval(() => {
+    images[current].classList.remove("active");
+    current = (current + 1) % images.length;
+    images[current].classList.add("active");
+}, 3000);
+</script>
 
 </body>
 </html
