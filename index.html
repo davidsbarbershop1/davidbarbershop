@@ -152,6 +152,16 @@ class="whatsapp-float" target="_blank">
 💬
 </a>
     <script>
+        const images = document.querySelectorAll(".gallery img");
+let current = 0;
+
+images[current].classList.add("active");
+
+setInterval(() => {
+    images[current].classList.remove("active");
+    current = (current + 1) % images.length;
+    images[current].classList.add("active");
+}, 1000);
 
 </body>
 </html
