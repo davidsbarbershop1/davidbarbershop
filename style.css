@@ -135,10 +135,13 @@ font-weight:bold;
 }
 
 footer{
-padding:30px;
-text-align:center;
-background:#000;
-margin-top:.reviews{
+    padding:30px;
+    text-align:center;
+    background:#000;
+    margin-top:40px;
+}
+    
+.reviews{
     padding:80px 20px;
     background:#111;
     text-align:center;
